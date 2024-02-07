@@ -1,0 +1,34 @@
+.outerbox {
+    background-color: #dcd9c6;
+    margin: 4% 8% 8%;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    padding: 5%;
+}
+
+.innerbox {
+    background-color: #9e4e31;
+    color: white;
+    align-items: center;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    transition: background-color 0.2s ease;
+}
+
+.innerbox:hover {
+    background-color: #9b5c45;
+}
+
+h1 {
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+    padding: 10px 35px;
+    line-height: 25px;
+}
